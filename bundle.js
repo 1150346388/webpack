@@ -46,7 +46,7 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	__webpack_require__(1);
-	document.write('It works.')
+	document.write('It works.');
 	document.write(__webpack_require__(5));
 
 /***/ },
@@ -84,7 +84,7 @@
 
 
 	// module
-	exports.push([module.id, "body {\r\n    background: yellow;\r\n}\r\n", ""]);
+	exports.push([module.id, "body {\r\n    background: yellow;\r\n}\r\n#example{\r\n\tcolor: red;\r\n}", ""]);
 
 	// exports
 
